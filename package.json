@@ -1,0 +1,23 @@
+{
+  "name": "microservicios_arep_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielaasilva/Microservicios_AREP_FRONT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielaasilva/Microservicios_AREP_FRONT/issues"
+  },
+  "homepage": "https://github.com/gabrielaasilva/Microservicios_AREP_FRONT#readme",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^5.2.8"
+  }
+}
