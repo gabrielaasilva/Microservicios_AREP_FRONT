@@ -15,7 +15,7 @@ const user = new CognitoUser({
   user.authenticateUser(authDetails, {
     onSuccess: (data) => {
       console.log("onSuccess: ", data);
-      window.location.href = "components/Home/home.html"
+      window.location.href = "components/Feed/feed.html"
     },
     onFailure: (err) => {
       console.error("onFailure: ", err);
