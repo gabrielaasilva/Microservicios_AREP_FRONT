@@ -19,10 +19,14 @@ function traerDatos(){
             for(let item of datos){
                 //console.log(item)
                 res.innerHTML += `
-                    <tr>
-                        <td>${item.contenido}</td>
-                        <td>${item.fecha}</td>
-                    </tr>
+                    <div class="container">
+                        <div class="content">
+                            <h1>${item.fecha}</h1>
+                            <h3>${item.contenido}</h3>
+                        </div>
+                        <div class="flap"></div>
+                    </div>
+                </div>
                 `
             }
         }
