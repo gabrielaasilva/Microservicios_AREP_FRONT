@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="feed.css" rel="stylesheet">
-    
     <title>Feed</title>
 </head>
 <body>
-   <button id="boton" onclick="traerDatos()">boton</button>
+    
+    <div class="form-group" style="text-align: center;" id="resultt">
+        <form name="form1">
+            <textarea class="form-input" name="mensaje" onKeyDown="cuenta(this.form.mensaje, 140);" onKeyUp="cuenta(this.form.mensaje, 140);"></textarea>
+            <h4 class="example"></h3>
+            <button type="button" onclick="enviarPost()">Post</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
 
-   <div id="res"></div>   
+    <div style=" position: absolute; left: 40%; width: 100%;" id="res">
+        
+    </div>   
    
    <script async src="ajax.js" charset="utf-8"></script>
+   <script src="script.js"></script>
+   <link href="feed.css" rel="stylesheet">
 
 </body>
 </html>

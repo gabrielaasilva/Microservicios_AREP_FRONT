@@ -20,4 +20,5 @@ async function enviarPost () {
         },
         body: JSON.stringify(res)
     });
+    traerDatos();
 }
