@@ -1,4 +1,6 @@
-document.querySelector("#boton").addEventListener('click', traerDatos());
+//document.querySelector("#boton").addEventListener('click', traerDatos());
+
+window.onload = traerDatos;
 
 function traerDatos(){
     
@@ -19,10 +21,14 @@ function traerDatos(){
             for(let item of datos){
                 //console.log(item)
                 res.innerHTML += `
-                    <tr>
-                        <td>${item.contenido}</td>
-                        <td>${item.fecha}</td>
-                    </tr>
+                <div">
+                    <div class="second py-2 px-2"> <span class="text1">${item.contenido}</span>
+                        <div class="d-flex justify-content-between py-1 pt-2">
+                            <div>
+                                <span class="text3">${item.fecha}</span><span class="thumbup"><i class="fa fa-thumbs-o-up">
+                            </div>
+                        </div>
+                    </div>
                 `
             }
         }

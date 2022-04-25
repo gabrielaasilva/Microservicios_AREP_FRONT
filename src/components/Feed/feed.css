@@ -1,0 +1,28 @@
+.second {
+  width: 20%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 12px 1px 10px #aaaaaa;  
+}
+
+.text1 {
+  font-size: 18px;
+  color: darkslategray
+}
+
+.text3 {
+  font-size: 13px;
+  color: #828386
+}
+
+.form-group .form-input {
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 400;
+  color: #363636;
+  width: 30%;
+  height: 100px;
+  border: 1px solid #c5c5c5;
+  border-radius: 3px;
+}
+
