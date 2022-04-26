@@ -6,7 +6,7 @@ function traerDatos(){
     
     const jsonData = new XMLHttpRequest();
 
-    jsonData.open('GET', 'http://localhost:4568/feed/20', true);
+    jsonData.open('GET', 'http://ec2-3-231-151-135.compute-1.amazonaws.com:4568/feed/20', true);
     jsonData.send();
 
     jsonData.onreadystatechange = function(){
